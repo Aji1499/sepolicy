@@ -372,6 +372,8 @@ hal_attribute(weaver);
 hal_attribute(wifi);
 hal_attribute(wifi_hostapd);
 hal_attribute(wifi_supplicant);
+hal_attribute(fancontroller);
+
 
 # HwBinder services offered across the core-vendor boundary
 #
@@ -389,6 +391,9 @@ attribute stats_service_server;
 attribute system_suspend_internal_server;
 attribute system_suspend_server;
 attribute wifi_keystore_service_server;
+attribute hal_fancontroller;
+attribute hal_fancontroller_client;
+attribute hal_fancontroller_server;mon
 
 # All types used for super partition block devices.
 attribute super_block_device_type;
